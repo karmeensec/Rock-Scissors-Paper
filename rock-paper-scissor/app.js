@@ -13,7 +13,7 @@ const game = () => {
       match.classList.add("fadeIn");
     });
   };
-  //Play Match
+  //Play Match -------
   const playMatch = () => {
     const options = document.querySelectorAll(".options button");
     const playerHand = document.querySelector(".player-hand");
